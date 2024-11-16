@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+                NavigationPage.HasNavigationBar="False"
+             BackgroundColor="LightGray">
+               
+    
+    <VerticalStackLayout >
+        <Frame Margin="20">
+            
+
+            <Label
+               Text="MauiAppHotel é um aplicativo desenvolvido para fazer reservas em um Hotel"
+               TextColor="{StaticResource Primary}"
+               FontFamily="Kalam"
+               HorizontalTextAlignment="Center"/>
+                      
+                        
+        </Frame>
+
+        <Frame Margin="20">
+
+            <Label
+            Text="Lançado em 11/11/2024"
+            TextColor="{StaticResource Primary}"
+                FontFamily="Kalam"
+                HorizontalTextAlignment="Center"/>
+        </Frame>
+
+        <Frame Margin="20">
+
+            <Label 
+            Text="Desenvolvido por Hesio Saraiva"
+            TextColor="{StaticResource Primary}"
+                FontFamily="Kalam"
+                HorizontalTextAlignment="Center"/>
+        </Frame>
+
+        <Button Text="Avançar" Clicked="Button_Clicked" />
+
+
+    </VerticalStackLayout>
+</ContentPage>
