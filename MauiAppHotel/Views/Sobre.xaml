@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppHotel.Views.Sobre"
                 NavigationPage.HasNavigationBar="False"
-             BackgroundColor="LightGray">
+             BackgroundColor="{StaticResource Gray100}">
                
     
     <VerticalStackLayout >
@@ -37,7 +37,9 @@
                 HorizontalTextAlignment="Center"/>
         </Frame>
 
-        <Button Text="Avançar" Clicked="Button_Clicked" />
+        <Button Text="Voltar"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked" />
 
 
     </VerticalStackLayout>
