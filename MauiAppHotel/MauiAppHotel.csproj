@@ -73,6 +73,7 @@
 	  <None Remove="Resources\Fonts\Kalam-Bold.ttf" />
 	  <None Remove="Resources\Fonts\Kalam-Light.ttf" />
 	  <None Remove="Resources\Fonts\Kalam-Regular.ttf" />
+	  <None Remove="Resources\Images\coqueiro.png" />
 	</ItemGroup>
 
 	<ItemGroup>

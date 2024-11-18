@@ -8,10 +8,15 @@
     <VerticalStackLayout VerticalOptions="CenterAndExpand"
                          Padding="10">
         <Label 
-            Text="Cálculo da Diária"
-            FontFamily="Kalam"
-            FontSize="50"
-            TextColor="{StaticResource Primary}"  />
+            Text="Hotel Porto Futuro"
+            FontFamily="Kalam-Light"
+            FontSize="30"
+            TextColor="YellowGreen"/>
+        <Image
+            Source="coqueiro.png" 
+            HeightRequest="140"
+            Aspect="AspectFill"
+            SemanticProperties.HeadingLevel="Level1"/>
 
         <Frame Padding="10">
             <VerticalStackLayout>

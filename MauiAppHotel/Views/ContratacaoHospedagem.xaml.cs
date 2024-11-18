@@ -27,13 +27,7 @@ public partial class ContratacaoHospedagem : ContentPage
 		{
 			DisplayAlert("Ops", ex.Message, "OK");
 		}
-		try
-		{
-			Navigation.PushAsync(new Sobre());
-		} catch (Exception ex)
-		{
-			DisplayAlert("Ops", ex.Message, "OK");
-		}
+		
     }
 
     private void dtpck_chechin_DateSelected(object sender, DateChangedEventArgs e)
